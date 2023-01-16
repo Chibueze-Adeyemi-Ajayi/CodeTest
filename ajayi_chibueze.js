@@ -17,3 +17,4 @@ function rotLeft(a, d){
 }
 // printing out the annotaion
 console.log(rotLeft([1,2,3,4,5], 2));
+// you can also test with your personal data
