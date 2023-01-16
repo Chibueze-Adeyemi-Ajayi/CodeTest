@@ -12,6 +12,7 @@ function rotLeft(a, d){
         for (let x = 0; x < start; x++) arr.push(a[x]);
         array.push(arr);
     }
+    // returning the result
    return array;
 }
 // printing out the annotaion
