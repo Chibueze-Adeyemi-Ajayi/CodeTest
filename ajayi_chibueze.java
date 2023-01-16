@@ -105,6 +105,7 @@ public class ajayi_chibueze {
     
     // main function
     public static void main(String[] args) throws Exception {
+        // output configuration
         String [] data = TeraData.getConfiguration("teradata-world-setup.txt");
         String probabilityAnalysisMessage = TeraData.computeTransmissionProbability(data);
         System.out.print(probabilityAnalysisMessage);
