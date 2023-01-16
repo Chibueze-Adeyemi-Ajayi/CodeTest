@@ -83,7 +83,7 @@ class TeraData {
 
         return data;
     }
-
+    // computing probability
     public static String computeTransmissionProbability (String [] data) { String output = "";
         String [] analysis_data = data;  int x = -1;
         for (String result : analysis_data) { x ++;
